@@ -1,0 +1,24 @@
+<div class="img">
+  <img [src]="'/assets/plants/'+plant?.image" [alt]="plant?.name" />
+</div>
+<h3 class="name">
+  {{ plant?.name }}
+  <small>{{ plant?.scientificName }}</small>
+</h3>
+<p class="price">${{ plant?.price }}</p>
+<ul class="stamps">
+  <li>
+    <i *ngIf="plant?.water === 'daily'" class="ps-three-drops"></i>
+    <i *ngIf="plant?.water === 'regularly'" class="ps-two-drops"></i>
+    <i *ngIf="plant?.water === 'rarely'" class="ps-one-drop"></i>
+  </li>
+  <li>
+    <i *ngIf="plant?.sun === 'no'" class="ps-no-sun"></i>
+    <i *ngIf="plant?.sun === 'low'" class="ps-low-sun"></i>
+    <i *ngIf="plant?.sun === 'high'" class="ps-high-sun"></i>
+  </li>
+  <li>
+    <i *ngIf="!plant?.toxicity" class="ps-pet"></i>
+    <i *ngIf="plant?.toxicity" class="ps-toxic"></i>
+  </li>
+</ul>

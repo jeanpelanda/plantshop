@@ -1,0 +1,16 @@
+<div class="select" [ngClass]="{'open':open}">
+  <div class="select-trigger" (click)="toggleClass()">
+      <span>{{ !currentValue ? "Select..." : currentValue | titlecase }}</span>
+  </div>
+  <div class="select-options">
+      <span
+        class="select-option"
+        [ngClass]="{'selected' : !currentValue}"
+        (click)="clear()">Select...</span>
+      <span
+          *ngFor="let option of options"
+          [ngClass]="{'selected' : currentValue === option}"
+          (click)="select(option)"
+          class="select-option">{{ option | titlecase }}</span>
+  </div>
+</div>

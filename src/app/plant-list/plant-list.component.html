@@ -1,0 +1,69 @@
+<section class="selects" id="selects">
+  <div class="container">
+      <div class="selects-lst">
+          <div class="selects-item">
+              <figure class="selects-item-img">
+                  <img src="../assets/images/sun.png" alt="Sun illustration with sunglasses" title="Sun" />
+              </figure>
+              <p class="selects-item-title">
+                  Set the amount of <strong>sunlight</strong> your plant will get.
+              </p>
+              <div class="selects-item-options">
+                  <app-select [options]="sunOptions" (currentValueChanged)="sun = $event"></app-select>
+              </div>
+          </div>
+          <div class="selects-item">
+              <figure class="selects-item-img">
+                  <img src="../assets/images/wateringcan.png" alt="watering can smiling" title="Watering Can" />
+              </figure>
+              <p class="selects-item-title">
+                  How often do you want to <strong>water</strong> your plant?
+              </p>
+              <div class="selects-item-options">
+                <app-select [options]="waterOptions" (currentValueChanged)="water = $event"></app-select>
+              </div>
+          </div>
+          <div class="selects-item">
+              <figure class="selects-item-img">
+                  <img src="../assets/images/dog.png" alt="Dog Head Illustration" title="Dog" />
+              </figure>
+              <p class="selects-item-title">
+                  Do you have pets? Do they <strong>chew</strong> plants?
+              </p>
+              <div class="selects-item-options">
+                <app-select [options]="toxicOptions" (currentValueChanged)="toxic = $event"></app-select>
+              </div>
+          </div>
+          <div class="selects-item">
+              <p class="selects-item-title">
+                  <strong>Or...</strong> You can also search for the name of the plant you want:
+              </p>
+              <div class="selects-item-options">
+                <input type="search" placeholder="Search..." (keyup)="onKeyUp($event.target)" />
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<section class="grid" id="plants">
+  <ng-container *ngIf="$any(plants) | filterPlants: name:water:sun:toxic as result">
+    <div class="grid-results" *ngIf="result.length">
+      <div class="container">
+        <ul class="grid-results-lst">
+          <li *ngFor="let plant of result" app-plant [plant]="plant"></li>
+        </ul>
+      </div>
+    </div>
+    <div class="grid-no-results" *ngIf="!result.length">
+      <div class="container">
+        <div class="grid-no-results-txt">
+          <h3>No results...</h3>
+          <p>Use the filters above to find the plant that best fits your environment :)</p>
+        </div>
+        <figure class="grid-no-results-img">
+          <img src="../assets/images/no-results.png" alt="Plant pot with question mark" title="No results yet…" />
+        </figure>
+      </div>
+    </div>
+  </ng-container>
+</section>
