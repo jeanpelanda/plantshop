@@ -1,7 +1,5 @@
 # Plantshop
 
-# plantshop API
-
 ### Usage
 1. Clone the repository;
 2. Run `npm install` to get the dev dependencies;
