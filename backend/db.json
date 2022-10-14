@@ -1,0 +1,436 @@
+{
+  "plants": [
+    {
+      "name": "Amor Perfeito",
+      "scientificName": "Viola tricolor",
+      "price": 12,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "amor-perfeito.jpeg"
+    },
+    {
+      "name": "Areca bambu",
+      "scientificName": "Dypsis lutescens",
+      "price": 9,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "areca-bambu.png"
+    },
+    {
+      "name": "Azaleia",
+      "scientificName": "Rhododendron spp",
+      "price": 23,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": true,
+      "image": "azaleia.jpeg"
+    },
+    {
+      "name": "Bico de Papagaio",
+      "scientificName": "Euphorbia pulcherrima",
+      "price": 14,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": true,
+      "image": "bico-de-papagaio.jpeg"
+    },
+    {
+      "name": "Bromélia",
+      "scientificName": "Bromeliaceae",
+      "price": 19,
+      "water": "daily",
+      "sun": "low",
+      "toxicity": false,
+      "image": "bromelia.jpeg"
+    },
+    {
+      "name": "Cacto zebra",
+      "scientificName": "Haworthiopsis attenuata",
+      "price": 27,
+      "water": "rarely",
+      "sun": "low",
+      "toxicity": false,
+      "image": "cacto-zebra.jpeg"
+    },
+    {
+      "name": "Camedórea-elegante",
+      "scientificName": "Chamaedorea elegans",
+      "price": 13,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "camedorea-elegante.jpeg"
+    },
+    {
+      "name": "Capuchinha",
+      "scientificName": "Tropaeolum majus",
+      "price": 11,
+      "water": "regularly",
+      "sun": "high",
+      "toxicity": false,
+      "image": "capuchinha.jpeg"
+    },
+    {
+      "name": "Chifre-de-Veado",
+      "scientificName": "Platycerium bifurcatum",
+      "price": 22,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "chifre-de-veado.png"
+    },
+    {
+      "name": "Cheflera",
+      "scientificName": "Schefflera arboricola",
+      "price": 20,
+      "water": "regularly",
+      "sun": "high",
+      "toxicity": true,
+      "image": "cheflera.jpeg"
+    },
+    {
+      "name": "Cissus alata",
+      "scientificName": "Serjania lethalis",
+      "price": 7,
+      "water": "regularly",
+      "sun": "high",
+      "toxicity": false,
+      "image": "cissus-alata.jpeg"
+    },
+    {
+      "name": "Clorofito",
+      "scientificName": "Chlorophytum comosum",
+      "price": 15,
+      "water": "rarely",
+      "sun": "low",
+      "toxicity": false,
+      "image": "clorofito.jpeg"
+    },
+    {
+      "name": "Columnea",
+      "scientificName": "Columnea",
+      "price": 24,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "columnea.jpeg"
+    },
+    {
+      "name": "Comigo Ninguém Pode",
+      "scientificName": "Dieffenbachia seguine",
+      "price": 8,
+      "water": "regularly",
+      "sun": "no",
+      "toxicity": true,
+      "image": "comigo-ninguem-pode.jpeg"
+    },
+    {
+      "name": "Copo de Leite",
+      "scientificName": "Zantedeschia aethiopica",
+      "price": 6,
+      "water": "regularly",
+      "sun": "no",
+      "toxicity": true,
+      "image": "copo-de-leite.jpeg"
+    },
+    {
+      "name": "Coroa de cristo",
+      "scientificName": "Euphorbia milii",
+      "price": 10,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": true,
+      "image": "coroa-de-cristo.png"
+    },
+    {
+      "name": "Costela de Adão",
+      "scientificName": "Monstera deliciosa",
+      "price": 30,
+      "water": "regularly",
+      "sun": "no",
+      "toxicity": true,
+      "image": "costela-de-adao.jpeg"
+    },
+    {
+      "name": "Espada de São Jorge",
+      "scientificName": "Dracaena trifasciata",
+      "price": 16,
+      "water": "rarely",
+      "sun": "no",
+      "toxicity": true,
+      "image": "espada-sao-jorge.png"
+    },
+    {
+      "name": "Espirradeira",
+      "scientificName": "Nerium oleander",
+      "price": 29,
+      "water": "rarely",
+      "sun": "high",
+      "toxicity": true,
+      "image": "espirradeira.jpeg"
+    },
+    {
+      "name": "Filodendro",
+      "scientificName": "Philodendron",
+      "price": 17,
+      "water": "regularly",
+      "sun": "no",
+      "toxicity": true,
+      "image": "filodendro.jpeg"
+    },
+    {
+      "name": "Folha da fortuna",
+      "scientificName": "Kalanchoe spp",
+      "price": 28,
+      "water": "rarely",
+      "sun": "high",
+      "toxicity": true,
+      "image": "folha-da-fortuna.jpeg"
+    },
+    {
+      "name": "Gérbera",
+      "scientificName": "Gerbera",
+      "price": 18,
+      "water": "rarely",
+      "sun": "low",
+      "toxicity": false,
+      "image": "gerbera.jpeg"
+    },
+    {
+      "name": "Girassol",
+      "scientificName": "Helianthus annuus",
+      "price": 26,
+      "water": "regularly",
+      "sun": "high",
+      "toxicity": false,
+      "image": "girassol.jpeg"
+    },
+    {
+      "name": "Hera",
+      "scientificName": "Hedera helix",
+      "price": 21,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": true,
+      "image": "hera.png"
+    },
+    {
+      "name": "Hibisco",
+      "scientificName": "Hibiscus",
+      "price": 25,
+      "water": "regularly",
+      "sun": "high",
+      "toxicity": true,
+      "image": "hibisco.png"
+    },
+    {
+      "name": "Hortênsia",
+      "scientificName": "Hydrangeia macrophylla",
+      "price": 8,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": true,
+      "image": "hortensia.jpeg"
+    },
+    {
+      "name": "Jibóia",
+      "scientificName": "Epipremnum pinnatum",
+      "price": 18,
+      "water": "regularly",
+      "sun": "no",
+      "toxicity": true,
+      "image": "jiboia.jpeg"
+    },
+    {
+      "name": "Lavanda",
+      "scientificName": "Lavandula",
+      "price": 7,
+      "water": "regularly",
+      "sun": "high",
+      "toxicity": false,
+      "image": "lavanda.jpeg"
+    },
+    {
+      "name": "Lírio",
+      "scientificName": "Lilium",
+      "price": 16,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": true,
+      "image": "lirio.jpeg"
+    },
+    {
+      "name": "Maranta Tricolor",
+      "scientificName": "Stromanthe thalia",
+      "price": 9,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "maranta-tricolor.jpeg"
+    },
+    {
+      "name": "Maranta",
+      "scientificName": "Maranta",
+      "price": 16,
+      "water": "regularly",
+      "sun": "no",
+      "toxicity": false,
+      "image": "maranta.jpeg"
+    },
+    {
+      "name": "Morango selvagem",
+      "scientificName": "Fragaria vesca",
+      "price": 10,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "morango-selvagem.jpeg"
+    },
+    {
+      "name": "Orquídea",
+      "scientificName": "Orchidaceae",
+      "price": 20,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "orquidea.jpeg"
+    },
+    {
+      "name": "Palmeira de Cica",
+      "scientificName": "Cycas revoluta",
+      "price": 7,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": true,
+      "image": "palmeira-de-cica.jpeg"
+    },
+    {
+      "name": "Palmeira Rápis",
+      "scientificName": "Rhapis flabelliformis",
+      "price": 11,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "palmeira-rapis.jpeg"
+    },
+    {
+      "name": "Pata de elefante",
+      "scientificName": "Beaucarnea recurvata",
+      "price": 17,
+      "water": "rarely",
+      "sun": "high",
+      "toxicity": false,
+      "image": "pata-de-elefante.jpeg"
+    },
+    {
+      "name": "Pellionia pulchra",
+      "scientificName": "Pellionia repens pulchra",
+      "price": 14,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "pellionia-pulchra.png"
+    },
+    {
+      "name": "Peperômia-melancia",
+      "scientificName": "Peperomia argyreia",
+      "price": 11,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "peperomia-melancia.png"
+    },
+    {
+      "name": "Pilea",
+      "scientificName": "Pilea peperomioides",
+      "price": 12,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "pilea.jpeg"
+    },
+    {
+      "name": "Planta Confete",
+      "scientificName": "Hypoestes phyllostachya",
+      "price": 18,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "planta-confete.jpeg"
+    },
+    {
+      "name": "Primula",
+      "scientificName": "Primula abconica",
+      "price": 15,
+      "water": "rarely",
+      "sun": "low",
+      "toxicity": true,
+      "image": "primula.jpeg"
+    },
+    {
+      "name": "Rabo de burro",
+      "scientificName": "Sedum morganianum",
+      "price": 21,
+      "water": "rarely",
+      "sun": "no",
+      "toxicity": false,
+      "image": "rabo-de-burro.jpeg"
+    },
+    {
+      "name": "Rabo de galo",
+      "scientificName": "Celosia argentea",
+      "price": 9,
+      "water": "regularly",
+      "sun": "high",
+      "toxicity": false,
+      "image": "rabo-de-galo.jpeg"
+    },
+    {
+      "name": "Renda portuguesa",
+      "scientificName": "Davallia fejeensis",
+      "price": 14,
+      "water": "rarely",
+      "sun": "no",
+      "toxicity": false,
+      "image": "renda-portuguesa.jpeg"
+    },
+    {
+      "name": "Samambaia",
+      "scientificName": "Pleopeltis pleopeltifolia",
+      "price": 13,
+      "water": "daily",
+      "sun": "no",
+      "toxicity": true,
+      "image": "samambaia.jpeg"
+    },
+    {
+      "name": "Tulipa",
+      "scientificName": "Tulipa",
+      "price": 19,
+      "water": "rarely",
+      "sun": "low",
+      "toxicity": true,
+      "image": "tulipa.jpeg"
+    },
+    {
+      "name": "Veludo roxo",
+      "scientificName": "Gynura procumbens",
+      "price": 6,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": false,
+      "image": "veludo-roxo.jpeg"
+    },
+    {
+      "name": "Violeta",
+      "scientificName": "Viola",
+      "price": 17,
+      "water": "regularly",
+      "sun": "low",
+      "toxicity": true,
+      "image": "violeta.jpeg"
+    }
+  ]
+}
