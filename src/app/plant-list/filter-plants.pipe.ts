@@ -2,7 +2,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 import { Plant } from '../plant/plant';
 
 @Pipe({ name: 'filterPlants', pure: false })
-export class filterPlants implements PipeTransform {
+export class FilterPlants implements PipeTransform {
 
   transform(plants: Plant[], nameQuery: string, water: string, sun: string, toxic: string) {
 

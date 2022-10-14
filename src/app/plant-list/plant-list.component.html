@@ -39,7 +39,7 @@
                   <strong>Or...</strong> You can also search for the name of the plant you want:
               </p>
               <div class="selects-item-options">
-                <input type="search" placeholder="Search..." (keyup)="onKeyUp($event.target)" />
+                <input type="search" placeholder="Search..." (keyup)="debounce.next(onKeyUp($event))" />
               </div>
           </div>
       </div>

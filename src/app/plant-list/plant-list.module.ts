@@ -4,12 +4,12 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { PlantListComponent } from './plant-list.component';
-import { filterPlants } from './filter-plants.pipe';
+import { FilterPlants } from './filter-plants.pipe';
 
 @NgModule({
   declarations: [
     PlantListComponent,
-    filterPlants
+    FilterPlants
   ],
   imports: [
     CommonModule,
